@@ -4,34 +4,41 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Tal vez es la forma en que dices mi nombre", time: 12 },
+  { text: "Tal vez es la forma en que juegas tu juego", time: 18 },
+  { text: "Pero es tan bueno, nunca conocí a nadie como tú", time: 24 },
+  { text: "Pero es tan bueno, nunca soñé con nadie como tú", time: 32 },
+  { text: "Y he oído de un amor que llega una vez en la vida", time: 40 },
+  { text: "Y estoy bastante segura de que eres ese amor mío", time: 47 },
+
+  // Coro
+  { text: "Porque estoy en un campo de dientes de león", time: 54 },
+  { text: "Deseando que cada uno sea para que seas mío, mío", time: 58 },
+  { text: "Y veo el para siempre en tus ojos", time: 65 },
+  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 70 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 76 },
+  { text: "Rezando a Dios que algún día seas mío", time: 83 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 90 },
+  { text: "Todo el tiempo", time: 96 },
+
+  { text: "Creo que tú eres el indicado para mí", time: 104 },
+  { text: "Porque se vuelve tan difícil respirar", time: 109 },
+  { text: "Cuando me miras", time: 115 },
+  { text: "Nunca me he sentido tan viva y libre", time: 118 },
+  { text: "Cuando me miras", time: 122 },
+  { text: "Nunca me he sentido tan feliz", time: 126 },
+
+  // Coro repetido
+  { text: "Porque estoy en un campo de dientes de león", time: 135 },
+  { text: "Deseando que cada uno sea para que seas mío, mío", time: 140 },
+  { text: "Y veo el para siempre en tus ojos", time: 145 },
+  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 150 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 157 },
+  { text: "Rezando a Dios que algún día seas mío", time: 164 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 170 },
+  { text: "Todo el tiempo", time: 175 },
 ];
+
 
 // Animar las letras
 function updateLyrics() {
