@@ -2,42 +2,42 @@
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
 
-// Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "Tal vez es la forma en que dices mi nombre", time: 12 },
-  { text: "Tal vez es la forma en que juegas tu juego", time: 18 },
-  { text: "Pero es tan bueno, nunca conocí a nadie como tú", time: 24 },
-  { text: "Pero es tan bueno, nunca soñé con nadie como tú", time: 32 },
-  { text: "Y he oído de un amor que llega una vez en la vida", time: 40 },
-  { text: "Y estoy bastante segura de que eres ese amor mío", time: 47 },
+  { text: "Tal vez es la forma en que juegas tu juego", time: 16 },
+  { text: "Pero es tan bueno, nunca conocí a nadie como tú", time: 22 },
+  { text: "Pero es tan bueno, nunca soñé con nadie como tú", time: 28 },
+  { text: "Y he oído de un amor que llega una vez en la vida", time: 35 },
+  { text: "Y estoy bastante segura de que eres ese amor mío", time: 41 },
 
   // Coro
-  { text: "Porque estoy en un campo de dientes de león", time: 54 },
-  { text: "Deseando que cada uno sea para que seas mío, mío", time: 58 },
-  { text: "Y veo el para siempre en tus ojos", time: 65 },
-  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 70 },
-  { text: "Deseando en dientes de león todo el tiempo", time: 76 },
-  { text: "Rezando a Dios que algún día seas mío", time: 83 },
-  { text: "Deseando en dientes de león todo el tiempo", time: 90 },
-  { text: "Todo el tiempo", time: 96 },
+  { text: "Porque estoy en un campo de dientes de león", time: 49 },
+  { text: "Deseando que cada uno sea para que seas mío, mío", time: 52 },
+  { text: "Y veo el para siempre en tus ojos", time: 61 },
+  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 63 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 75 },
+  { text: "Rezando a Dios que algún día seas mío", time: 82 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 89 },
+  { text: "Todo el tiempo", time: 95 },
 
-  { text: "Creo que tú eres el indicado para mí", time: 104 },
-  { text: "Porque se vuelve tan difícil respirar", time: 109 },
-  { text: "Cuando me miras", time: 115 },
-  { text: "Nunca me he sentido tan viva y libre", time: 118 },
-  { text: "Cuando me miras", time: 122 },
-  { text: "Nunca me he sentido tan feliz", time: 126 },
+  { text: "Creo que tú eres el indicado para mí", time: 103 },
+  { text: "Porque se vuelve tan difícil respirar", time: 108 },
+  { text: "Cuando me miras", time: 114 },
+  { text: "Nunca me he sentido tan viva y libre", time: 117 },
+  { text: "Cuando me miras", time: 121 },
+  { text: "Nunca me he sentido tan feliz", time: 125 },
 
   // Coro repetido
-  { text: "Porque estoy en un campo de dientes de león", time: 135 },
-  { text: "Deseando que cada uno sea para que seas mío, mío", time: 140 },
-  { text: "Y veo el para siempre en tus ojos", time: 145 },
-  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 150 },
-  { text: "Deseando en dientes de león todo el tiempo", time: 157 },
-  { text: "Rezando a Dios que algún día seas mío", time: 164 },
-  { text: "Deseando en dientes de león todo el tiempo", time: 170 },
-  { text: "Todo el tiempo", time: 175 },
+  { text: "Porque estoy en un campo de dientes de león", time: 134 },
+  { text: "Deseando que cada uno sea para que seas mío, mío", time: 139 },
+  { text: "Y veo el para siempre en tus ojos", time: 144 },
+  { text: "Me siento bien cuando veo tu sonrisa, sonrisa", time: 149 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 156 },
+  { text: "Rezando a Dios que algún día seas mío", time: 163 },
+  { text: "Deseando en dientes de león todo el tiempo", time: 169 },
+  { text: "Todo el tiempo", time: 174 },
 ];
+
 
 
 // Animar las letras
